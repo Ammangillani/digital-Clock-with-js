@@ -6,31 +6,37 @@
 .hero{
     width: 100vw;
     height: 100vh;
+    background-image: url(./asset/clever-visuals-78owYIt_neU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
     color: #fff;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(22,80,150,1) 100%);
+ 
     position: relative;
 }
 .herowrapper{
-    width: 700px;
-    height: 10rem;
+    width: 40rem;
+    height: 8rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: blue;
+    background: transparent;
     border-radius: 30px;
 
 }
 .clockwrapper{
     width: 100%;
     height: 100%;
-    background: rgba(235, 0, 255, 0.11);
+    background: black;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+
 
 }
 .clockwrapper::before{
@@ -39,7 +45,7 @@
     height: 8rem;
     background: rebeccapurple;
     border-radius: 10rem;
-    /* opacity: 0.2; */
+    opacity: 0.2;
     position: absolute;
     left: -8%;
     top: -40%;
